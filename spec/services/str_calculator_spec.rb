@@ -1,9 +1,9 @@
 require 'rails_helper'
 
-RSpec.describe StringCalculator, type: :service do
+RSpec.describe StrCalculator, type: :service do
   describe '#add' do
     it 'returns 0 for an empty string' do
-      calculator = StringCalculator.new
+      calculator = StrCalculator.new
       expect(calculator.add('')).to eq(0)
     end
   end
