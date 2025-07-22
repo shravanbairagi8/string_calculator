@@ -8,7 +8,7 @@ RSpec.describe StrCalculator, type: :service do
     end
 
     it 'returns the number itself for a single number' do
-      calculator = StringCalculator.new
+      calculator = StrCalculator.new
       expect(calculator.add('1')).to eq(1)
     end
   end
